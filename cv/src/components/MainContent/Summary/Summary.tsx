@@ -2,14 +2,12 @@ import React from "react";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-
-import { hrStyles } from "./Summary.styles";
+import SectionHeader from "./SectionHeader/SectionHeader";
 
 const Summary: React.FC = () => {
   return (
-    <Box>
-      <Typography variant="h2">SUMMARY</Typography>
-      <Box component={"hr"} sx={hrStyles} />
+    <Box component={"section"}>
+      <SectionHeader title="SUMMARRY" />
       <Typography component="p">
         React Developer specializing in creating clean, user-focused interfaces
         using React, TypeScript, and modern JavaScript. Enjoy solving frontend
