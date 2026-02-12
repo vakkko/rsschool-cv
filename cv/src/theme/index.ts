@@ -18,4 +18,11 @@ const theme = createTheme({
   },
 });
 
+export const globalStyles = {
+  a: {
+    textDecoration: "none",
+    color: "inherit",
+  },
+};
+
 export default theme;

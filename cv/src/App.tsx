@@ -8,12 +8,15 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
 import { ThemeProvider } from "@mui/material/styles";
+import { CssBaseline, GlobalStyles } from "@mui/material";
 
-import theme from "./theme";
+import theme, { globalStyles } from "./theme";
 
 const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <GlobalStyles styles={globalStyles} />
       <Header />
     </ThemeProvider>
   );
