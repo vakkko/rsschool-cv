@@ -2,6 +2,7 @@ import React from "react";
 
 import Header from "./components/Header/Header";
 import MainContent from "./components/MainContent/MainContent";
+import Footer from "./components/Footer/Footer";
 
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
@@ -20,6 +21,7 @@ const App: React.FC = () => {
       <GlobalStyles styles={globalStyles} />
       <Header />
       <MainContent />
+      <Footer />
     </ThemeProvider>
   );
 };

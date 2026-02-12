@@ -33,6 +33,10 @@ export const globalStyles = {
     textDecoration: "none",
     color: "inherit",
   },
+  ul: {
+    listStyleType: "none",
+    padding: 0,
+  },
 };
 
 export default theme;

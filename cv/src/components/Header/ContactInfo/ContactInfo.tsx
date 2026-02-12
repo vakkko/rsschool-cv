@@ -5,7 +5,6 @@ import Typography from "@mui/material/Typography";
 
 import MailIcon from "@mui/icons-material/Mail";
 import CallIcon from "@mui/icons-material/Call";
-import GitHubIcon from "@mui/icons-material/GitHub";
 
 import { detailsContainerStyles } from "./ContactInfo.styles";
 
@@ -19,17 +18,6 @@ const ContactInfo: React.FC = () => {
       <Box component="li">
         <CallIcon />
         <Typography component="span">+995 579 32 27 94</Typography>
-      </Box>
-      <Box component="li">
-        <GitHubIcon />
-        <Typography
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/vakkko"
-          component="a"
-        >
-          github.com/vakkko
-        </Typography>
       </Box>
       <Box component="li">
         <svg
