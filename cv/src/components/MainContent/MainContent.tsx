@@ -3,6 +3,7 @@ import React from "react";
 import Summary from "./Summary/Summary";
 import Experience from "./Experience/Experience";
 import Education from "./Education/Education";
+import Projects from "./Projects/Projects";
 
 import Box from "@mui/material/Box";
 
@@ -14,6 +15,7 @@ const MainContent: React.FC = () => {
       <Summary />
       <Experience />
       <Education />
+      <Projects />
     </Box>
   );
 };

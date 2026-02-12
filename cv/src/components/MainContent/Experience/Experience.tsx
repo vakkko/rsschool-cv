@@ -1,12 +1,11 @@
 import React from "react";
 
-import Box from "@mui/material/Box";
-
 import SectionHeader from "../Summary/SectionHeader/SectionHeader";
 import OrganizationAndDate from "./CompanyTitle/OrganizationAndDate";
-import Typography from "@mui/material/Typography";
+import TechStack from "./TechStack/TechStack";
 
-import { techStackStyles } from "./Experience.styles";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 
 const Experience: React.FC = () => {
   return (
@@ -25,10 +24,10 @@ const Experience: React.FC = () => {
         and through pair programming sessions, I improved my frontend skills and
         learned to structure features more effectively.
       </Typography>
-      <Typography sx={techStackStyles} component={"p"}>
-        Tech stack: React, TypeScript, React Router, Redux Toolkit, RTK Query,
-        MUI, React Hook Form + Yup, Vitest, React Testing Library.
-      </Typography>
+      <TechStack
+        technologies="React, TypeScript, React Router, Redux Toolkit, RTK Query,
+        MUI, React Hook Form + Yup, Vitest, React Testing Library."
+      />
     </Box>
   );
 };
