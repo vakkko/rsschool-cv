@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "./components/Header/Header";
+import MainContent from "./components/MainContent/MainContent";
 
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
@@ -10,7 +11,7 @@ import "@fontsource/roboto/700.css";
 import { ThemeProvider } from "@mui/material/styles";
 import { CssBaseline, GlobalStyles } from "@mui/material";
 
-import theme, { globalStyles } from "./theme";
+import theme, { globalStyles } from "./styles/theme";
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const App: React.FC = () => {
       <CssBaseline />
       <GlobalStyles styles={globalStyles} />
       <Header />
+      <MainContent />
     </ThemeProvider>
   );
 };

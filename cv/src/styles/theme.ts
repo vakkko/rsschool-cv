@@ -1,5 +1,7 @@
 import { createTheme } from "@mui/material/styles";
 
+import { flexColumnCenter } from "./common";
+
 const theme = createTheme({
   typography: {
     fontFamily: "Roboto, Arial, sans-serif",
@@ -19,6 +21,10 @@ const theme = createTheme({
 });
 
 export const globalStyles = {
+  "#root": {
+    ...flexColumnCenter,
+  },
+
   a: {
     textDecoration: "none",
     color: "inherit",

@@ -1,10 +1,5 @@
 import type { SxProps, Theme } from "@mui/material";
-
-const flexColumnCenter = {
-  display: "flex",
-  alignItems: "center",
-  flexDirection: "column",
-};
+import { flexColumnCenter } from "../../styles/common";
 
 export const headerStyles: SxProps<Theme> = {
   ...flexColumnCenter,
