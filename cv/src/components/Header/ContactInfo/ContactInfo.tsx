@@ -11,16 +11,16 @@ import { detailsContainerStyles } from "./ContactInfo.styles";
 
 const ContactInfo: React.FC = () => {
   return (
-    <Box sx={detailsContainerStyles}>
-      <Box>
+    <Box component="ul" sx={detailsContainerStyles}>
+      <Box component="li">
         <MailIcon aria-label="email" />
         <Typography component="span">vakogabo44@gmail.com</Typography>
       </Box>
-      <Box>
+      <Box component="li">
         <CallIcon />
         <Typography component="span">+995 579 32 27 94</Typography>
       </Box>
-      <Box>
+      <Box component="li">
         <GitHubIcon />
         <Typography
           target="_blank"
@@ -31,7 +31,7 @@ const ContactInfo: React.FC = () => {
           github.com/vakkko
         </Typography>
       </Box>
-      <Box>
+      <Box component="li">
         <svg
           viewBox="0 -28.5 256 256"
           version="1.1"
