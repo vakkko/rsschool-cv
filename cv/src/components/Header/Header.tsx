@@ -17,7 +17,7 @@ const Header: React.FC = () => {
       <Box
         component="img"
         sx={imgStyles}
-        src="/images/profile.JPG"
+        src="./images/profile.JPG"
         alt="profile"
       />
       <Box sx={nameAndPositionStyles}>

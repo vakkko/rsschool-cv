@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
             </Typography>
           </Box>
           <Box component={"li"}>
-            <img src="/images/rs-school-logo.svg" alt="logo" />
+            <img src="./images/rs-school-logo.svg" alt="logo" />
           </Box>
           <Box component={"li"}>
             <Typography
