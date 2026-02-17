@@ -10,10 +10,12 @@ import {
   imgStyles,
   nameAndPositionStyles,
 } from "./Header.styles";
+import Navigation from "./Navigation/Navigation";
 
 const Header: React.FC = () => {
   return (
     <Box sx={headerStyles} component="header">
+      <Navigation />
       <Box
         component="img"
         sx={imgStyles}

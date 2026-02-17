@@ -9,7 +9,7 @@ import { languageContainer, languageStyles } from "./Language.styles";
 
 const Languages: React.FC = () => {
   return (
-    <Box component={"section"}>
+    <Box id="languages" component={"section"}>
       <SectionHeader title="LANGUAGES" />
       <Box sx={languageContainer}>
         <Typography component={"span"} sx={languageStyles}>

@@ -9,7 +9,7 @@ import { codeContainer, solutionStyles } from "./CodeExamples.styles";
 
 const CodeExample: React.FC = () => {
   return (
-    <Box component={"section"}>
+    <Box id="code-example" component={"section"}>
       <SectionHeader title="CODE EXAMPLE" />
       <Box sx={codeContainer}>
         <Typography component={"pre"}>

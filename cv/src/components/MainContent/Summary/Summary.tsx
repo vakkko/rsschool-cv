@@ -6,7 +6,7 @@ import SectionHeader from "./SectionHeader/SectionHeader";
 
 const Summary: React.FC = () => {
   return (
-    <Box component={"section"}>
+    <Box id="summary" component={"section"}>
       <SectionHeader title="SUMMARRY" />
       <Typography component="p">
         React Developer specializing in creating clean, user-focused interfaces

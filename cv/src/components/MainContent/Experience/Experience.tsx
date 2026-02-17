@@ -9,7 +9,7 @@ import Typography from "@mui/material/Typography";
 
 const Experience: React.FC = () => {
   return (
-    <Box component={"section"}>
+    <Box component={"section"} id="proffesional-experience">
       <SectionHeader title="PROFFESIONAL EXPERIENCE" />
       <OrganizationAndDate
         companyName="Andersen"
