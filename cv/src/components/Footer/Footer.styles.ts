@@ -8,7 +8,7 @@ export const footerContentStyles: SxProps<Theme> = {
     width: "20rem",
   },
 
-  "& > nav > ul": {
+  "& > ul": {
     display: "flex",
     flexDirection: "column",
     gap: "0.5rem",

@@ -7,7 +7,7 @@ import Project from "./Project/Project";
 
 const Projects: React.FC = () => {
   return (
-    <Box component={"section"}>
+    <Box id="projects" component={"section"}>
       <SectionHeader title="PROJECTS" />
       <Project
         projectName="RedSeam Clothing"

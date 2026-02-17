@@ -8,7 +8,7 @@ import OrganizationAndDate from "../Experience/CompanyTitle/OrganizationAndDate"
 
 const Education: React.FC = () => {
   return (
-    <Box component={"section"}>
+    <Box id="education" component={"section"}>
       <SectionHeader title="EDUCATION" />
       <Box>
         <OrganizationAndDate companyName="Bitcamp" date="06/2024 - 01/2025" />
