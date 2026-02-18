@@ -10,6 +10,7 @@ import Box from "@mui/material/Box";
 
 import { mainContentStyles } from "./mainContent.styles";
 import CodeExample from "./CodeExample/CodeExample";
+import Skills from "./Skills/Skills";
 
 const MainContent: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const MainContent: React.FC = () => {
       <Experience />
       <Education />
       <Projects />
+      <Skills />
       <Languages />
       <CodeExample />
     </Box>
