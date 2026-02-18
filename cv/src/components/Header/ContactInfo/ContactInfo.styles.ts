@@ -21,6 +21,6 @@ export const detailsContainerStyles: SxProps<Theme> = {
   "@media (max-width:718px)": {
     gridTemplateColumns: "1fr",
     gridTemplateRows: "1fr 1fr 1fr",
-    alignSelf: "flex-start",
+    alignSelf: "center",
   },
 };
