@@ -5,7 +5,7 @@ export const footerContentStyles: SxProps<Theme> = {
   m: "2rem 0",
 
   img: {
-    width: "20rem",
+    maxWidth: "20rem",
   },
 
   "& > ul": {
@@ -22,6 +22,5 @@ export const linkStyle: SxProps<Theme> = {
 };
 
 export const yearStyles: SxProps<Theme> = {
-  fontStyle: "italic",
-  fontSize: "0.7rem",
+  fontSize: "1rem",
 };

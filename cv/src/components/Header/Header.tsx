@@ -6,6 +6,7 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 
 import {
+  breakElement,
   headerStyles,
   imgStyles,
   nameAndPositionStyles,
@@ -23,7 +24,9 @@ const Header: React.FC = () => {
         alt="profile"
       />
       <Box sx={nameAndPositionStyles}>
-        <Typography variant="h1">Vladimer Gabisonia</Typography>
+        <Typography variant="h1">
+          Vladimer <Box component={"br"} sx={breakElement} /> Gabisonia
+        </Typography>
         <Typography component="span">React Developer</Typography>
       </Box>
       <ContactInfo />

@@ -25,10 +25,10 @@ const Footer: React.FC = () => {
             <GitHubIcon />
             github.com/vakkko
           </Typography>
-          <Typography component={"span"} sx={yearStyles}>
-            From: 2024
-          </Typography>
         </Box>
+        <Typography component={"span"} sx={yearStyles}>
+          2026
+        </Typography>
         <Box component={"li"}>
           <img src="./images/rs-school-logo.svg" alt="logo" />
         </Box>

@@ -10,4 +10,9 @@ export const linkStyles: SxProps<Theme> = {
   display: "flex",
   alignItems: "center",
   gap: "0.3rem",
+
+  "@media (max-width:520px)": {
+    flexDirection: "column",
+    alignItems: "flex-start",
+  },
 };

@@ -4,6 +4,11 @@ export const navigaitonStyles: SxProps<Theme> = {
   "& > ul": {
     display: "flex",
     gap: "1rem",
+
+    "@media (max-width:600px)": {
+      display: "grid",
+      gridTemplateColumns: "1fr 1fr",
+    },
   },
   a: {
     fontWeight: 500,

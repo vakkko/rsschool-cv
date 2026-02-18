@@ -15,3 +15,10 @@ export const imgStyles: SxProps<Theme> = {
 export const nameAndPositionStyles: SxProps<Theme> = {
   ...flexColumnCenter,
 };
+
+export const breakElement: SxProps<Theme> = {
+  display: "none",
+  "@media (max-width:520px)": {
+    display: "block",
+  },
+};
